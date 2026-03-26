@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": "client-1",
+      "name": "Tomi Adeyemi",
+      "email": "tomi@craftwork.dev",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "client",
+      "location": "Lekki, Lagos",
+      "bio": "Property manager coordinating home upgrades and urgent repairs.",
+      "skills": [],
+      "createdAt": "2026-03-01T09:00:00.000Z"
+    },
+    {
+      "id": "client-2",
+      "name": "Amina Yusuf",
+      "email": "amina@craftwork.dev",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "client",
+      "location": "Wuse, Abuja",
+      "bio": "Runs a boutique studio and hires trade professionals for fit-outs.",
+      "skills": [],
+      "createdAt": "2026-03-03T11:00:00.000Z"
+    },
+    {
+      "id": "artisan-1",
+      "name": "Kunle Fashina",
+      "email": "kunle@craftwork.dev",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "artisan",
+      "location": "Yaba, Lagos",
+      "bio": "Certified electrician focused on residential rewiring and panel upgrades.",
+      "skills": [
+        "Wiring",
+        "Fault tracing",
+        "Solar setup"
+      ],
+      "createdAt": "2026-03-02T10:30:00.000Z"
+    },
+    {
+      "id": "artisan-2",
+      "name": "Grace Ekanem",
+      "email": "grace@craftwork.dev",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "artisan",
+      "location": "Gwarinpa, Abuja",
+      "bio": "Interior carpenter delivering fitted wardrobes and kitchen installations.",
+      "skills": [
+        "Cabinetry",
+        "Measure and fit",
+        "Finishing"
+      ],
+      "createdAt": "2026-03-04T14:15:00.000Z"
+    },
+    {
+      "id": "artisan-3",
+      "name": "Bisi Alao",
+      "email": "bisi@craftwork.dev",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "artisan",
+      "location": "Ibadan, Oyo",
+      "bio": "Tailor for uniforms, bespoke native wear, and urgent alterations.",
+      "skills": [
+        "Pattern cutting",
+        "Alterations",
+        "Bulk orders"
+      ],
+      "createdAt": "2026-03-05T08:45:00.000Z"
+    },
+    {
+      "id": "client-fd3sv0t9",
+      "name": "Arthur Chukwuka",
+      "email": "arthurchukwuka5@gmail.com",
+      "passwordHash": "530a3c1ada9f9ffa30c36e6958a884033c2f6da44f073b71bce1a0bc8304778b",
+      "role": "client",
+      "location": "Lagos, Nigeria",
+      "bio": "Nothing to see here",
+      "skills": [],
+      "createdAt": "2026-03-26T12:20:24.273Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "title": "Rewire a 3-bedroom flat before tenant move-in",
+      "category": "Electrical",
+      "location": "Lekki Phase 1, Lagos",
+      "budget": "NGN 350,000",
+      "budgetType": "fixed",
+      "summary": "Need an experienced electrician for full rewiring, fittings check, and load balancing.",
+      "description": "The flat is undergoing light renovation and requires complete rewiring for kitchen, living room, bedrooms, and external sockets. Client expects material list support, clean finishing, and testing before handover.",
+      "skills": [
+        "Wiring",
+        "Load balancing",
+        "Testing"
+      ],
+      "status": "open",
+      "clientId": "client-1",
+      "createdAt": "2026-03-20T09:00:00.000Z",
+      "applicantIds": [
+        "artisan-1"
+      ]
+    },
+    {
+      "id": "job-2",
+      "title": "Build and install display shelving for boutique studio",
+      "category": "Carpentry",
+      "location": "Wuse 2, Abuja",
+      "budget": "NGN 420,000",
+      "budgetType": "fixed",
+      "summary": "Looking for a carpenter to fabricate premium wall shelves and a front desk counter.",
+      "description": "Project includes site measurement, fabrication, finishing, and installation of showroom shelving. Preference for artisans with experience in retail spaces and polished wood finishing.",
+      "skills": [
+        "Cabinetry",
+        "Finishing",
+        "Site measurement"
+      ],
+      "status": "open",
+      "clientId": "client-2",
+      "createdAt": "2026-03-18T15:00:00.000Z",
+      "applicantIds": [
+        "artisan-2"
+      ]
+    },
+    {
+      "id": "job-3",
+      "title": "Tailor needed for 60 staff uniforms",
+      "category": "Tailoring",
+      "location": "Victoria Island, Lagos",
+      "budget": "NGN 500,000",
+      "budgetType": "fixed",
+      "summary": "Need delivery of branded uniforms with fitting corrections within two weeks.",
+      "description": "This role covers measurement planning, sample creation, bulk sewing, and final adjustment for a hospitality team. Fabric and branding guide will be supplied by the client.",
+      "skills": [
+        "Bulk orders",
+        "Pattern cutting",
+        "Alterations"
+      ],
+      "status": "open",
+      "clientId": "client-1",
+      "createdAt": "2026-03-16T12:00:00.000Z",
+      "applicantIds": [
+        "artisan-3"
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "id": "application-1",
+      "jobId": "job-1",
+      "artisanId": "artisan-1",
+      "coverNote": "I handle residential rewiring and can inspect load distribution before work starts.",
+      "status": "new",
+      "createdAt": "2026-03-21T10:00:00.000Z"
+    },
+    {
+      "id": "application-2",
+      "jobId": "job-2",
+      "artisanId": "artisan-2",
+      "coverNote": "I have handled boutique shelves and custom counters for retail clients in Abuja.",
+      "status": "shortlisted",
+      "createdAt": "2026-03-19T09:30:00.000Z"
+    },
+    {
+      "id": "application-3",
+      "jobId": "job-3",
+      "artisanId": "artisan-3",
+      "coverNote": "I can manage the uniform production schedule and handle fitting updates before delivery.",
+      "status": "new",
+      "createdAt": "2026-03-17T16:45:00.000Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "449215cb2bcb5338e14a612c6496b280036976918d054495",
+      "userId": "client-fd3sv0t9",
+      "expiresAt": "2026-04-02T12:20:24.282Z"
+    }
+  ]
+}

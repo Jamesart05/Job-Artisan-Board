@@ -1,0 +1,137 @@
+{
+  "admin":{
+    "id": 1,
+    "username": "admin",
+    "password": "admin",
+    "role": "admin",
+    "name": "Arthur Chukwuka"
+  },
+  "employees": [
+    {
+      "employeeID": 124543234,
+      "id": 1,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 2,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 3,
+      "username": "employee2",
+      "password": "1234",
+      "role": "employee",
+      "name": "Jane Smith"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 4,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 5,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 6,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 7,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 8,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 9,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 10,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    },
+    {
+      "employeeID": 124543234,
+      "id": 11,
+      "username": "employee1",
+      "password": "1234",
+      "role": "employee",
+      "name": "John Doe"
+    }
+  ],
+
+  "attendance": [
+    {
+      "employeeId": 2,
+      "date": "2025-07-31",
+      "timeIn": "08:45",
+      "timeOut": "17:00",
+      "status": "present"
+    },
+    {
+      "employeeId": 3,
+      "date": "2025-07-31",
+      "timeIn": "09:25",
+      "timeOut": "17:10",
+      "status": "late"
+    }
+  ],
+
+  "leaveRequests": [
+    {
+      "id": 1,
+      "employeeId": 2,
+      "type": "Sick Leave",
+      "startDate": "2025-08-02",
+      "endDate": "2025-08-04",
+      "reason": "Fever and cold",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "employeeId": 3,
+      "type": "Casual Leave",
+      "startDate": "2025-08-10",
+      "endDate": "2025-08-11",
+      "reason": "Travel",
+      "status": "approved"
+    }
+  ]
+}
